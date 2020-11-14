@@ -7,3 +7,20 @@ The test works.
 
 - Original date - {{ date }}
 - With timeago filter - {{ date | timeago }}
+
+Here we check if quoting works.
+
+{% quote datta_upper-echelon_2014 %}
+We find that 'strategic' CFOs with an elite MBA (generalist) consistently command a compensation premium, while 'accounting' CFOs (specialist) and CFOs with a non- MBA master's degree, even from an elite institution, do not.
+{% endquote %}
+
+Does it look OK?
+
+# Cited bibliography
+
+{% bibliography --cited %}
+
+# Entire bibliography
+
+{% bibliography %}
+

@@ -1,1 +1,7 @@
 title: "Jekyll Actions Demo"
+
+plugins:
+  - jekyll/scholar
+scholar:
+  style: harvard-falmouth-university
+  bibliography: references/references.bib

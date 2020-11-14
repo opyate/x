@@ -16,6 +16,8 @@ We find that 'strategic' CFOs with an elite MBA (generalist) consistently comman
 
 Does it look OK?
 
+Here is a small markdown change. No extra libs.
+
 # Cited bibliography
 
 {% bibliography --cited %}
